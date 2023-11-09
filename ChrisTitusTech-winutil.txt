@@ -1,0 +1,17 @@
+REM Title:
+REM Author:
+REM Target:
+REM Version:
+REM Category:
+REM
+GUI r
+DELAY 500
+STRING powershell
+ENTER
+DELAY 500
+STRING irm https://christitus.com/win | iex
+ENTER
+DELAY 2000
+LEFTARROW
+DELAY 500
+ENTER
