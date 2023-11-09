@@ -1,0 +1,17 @@
+REM Title: ChrisTitusTech-winutil
+REM Author: neverfa11ing
+REM Target: Windows 10/11
+REM Version: 1.0
+REM Category: Utilities
+REM
+GUI r
+DELAY 500
+STRING powershell
+ENTER
+DELAY 500
+STRING irm https://christitus.com/win | iex
+ENTER
+DELAY 2000
+LEFTARROW
+DELAY 500
+ENTER
